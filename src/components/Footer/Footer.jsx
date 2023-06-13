@@ -74,7 +74,8 @@ const Footer = () => {
             <div className="footerbox"><img src={whatsapp} alt="" /></div>            
         </div>
         <div className="footer-left">
-        <p className="left-paragraph">(c) Copyright PayPro Private Limited © 2021. All right reserved.</p>
+        <p className="left-paragraph">(c) Copyright PayPro Private Limited © 2021.
+         All right reserved.</p>
         </div>
         <div className="footer-center">
             <a href="">Terms of Service | </a>
