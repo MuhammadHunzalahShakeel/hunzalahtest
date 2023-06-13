@@ -8,8 +8,7 @@ const Article = () => {
     <section id='article'>
     <div className="article">
     <div className="article-section">
-      <h1>PayPro Knowledge Portal</h1>
-      <p>Everything you need to know about starting your own business</p>
+      <h1>Articles</h1>
       <input type="search" placeholder='Search'/>
     </div>
     </div>

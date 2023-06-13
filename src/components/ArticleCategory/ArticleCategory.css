@@ -1,9 +1,8 @@
 .articlecategory-section{
     padding-top: 80px;
     padding-bottom: 80px;
-    padding-left: 150px;
-    padding-right: 150px;
-    /* background-color: #05555A; */
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .articlecategory-container {
@@ -11,6 +10,8 @@
     justify-content: space-between;
     flex-wrap: wrap;
     margin: 0 -10px;
+    margin-bottom: 50px ;
+    
 }
 
   .articlecategory-column {
@@ -23,8 +24,8 @@
   }
   
   .articlecategory-box {
-    width: 250px;
-    height: 200px;
+    width: 200px;
+    height: 225px;
     background-color: #ffffff;
     border-radius: 15px;
     padding: 20px;
@@ -41,15 +42,11 @@
   }
   
   .articlecategory-box img {
-    width: 20%;
-    height: 20%;
-    /* height: auto; */
+    width: 100%;
     
   }
   .articlecategory-box h2 {
-    font-size: 18px;
-    margin-bottom: 40px;
-    /* color: #000000; */
+    font-size: 16px;
   }
   
   .articlecategory-heading>h1{
@@ -74,7 +71,40 @@
   .articlecategory-date {
     color: #6B7280;
   }
-  
+  .article-button{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+   
+  }
+  .article-button button{
+    background-color: #05555A;
+    border-radius: 5px;
+    color: #ffffff;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    gap: 10px;
+    position: absolute;
+    width: 89px;
+    height: 45px;
+    font-size: 16px;
+  }
+  .article-button button:hover{
+    background-color: #ffffff;
+    border-radius: 5px #05555A;
+    color: #05555A;
+    border: 2px solid #05555A;
+    cursor: pointer;
+  }
 @media screen and (max-width: 768px) {
     .articlecategory-section {
         margin-top: 10px;

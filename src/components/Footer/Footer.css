@@ -10,12 +10,17 @@
     flex-wrap: wrap;
     justify-content: center;
     align-items: flex-start;
+    margin-top: 50px;
   }
   .download{
-    margin-top: 10px;
+    margin-top: 20px;
     display: flex;
     gap: 10px;
   }
+  .download img{
+   width:100px;
+   height: auto;
+}
   #left{
     margin-right: 252px;
   }
@@ -37,7 +42,7 @@
   }
   
   .logo img {
-    width: 170px;
+    width: 130px;
     height: auto;
   }
   
@@ -52,8 +57,7 @@
     text-align: left;
   }
   .footer-right>img{
-    width:26px;
-    height: 26px;
+    
     background-color: blue;
     border-radius: 50px;
   }
@@ -64,18 +68,19 @@
     display: flex;
     margin-right: 5px;
     background-color: #003C46;
-    width: 36px;
-    height: 36px;
+    width: 28px;
+    height: 28px;
     border-radius: 50px;
     justify-content: center;
     align-items: center;
   }
   .footerbox:hover{
     background-color: #64A5AF;
+    cursor: pointer;
   }
   .footerbox img{
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
   .left-paragraph{
     font-size: 14px;
@@ -96,9 +101,12 @@
     margin-bottom: 30px;
   }
   .footer-center{
+    display: flex;
+    justify-content: center;
     align-items: center;
-    justify-content: space-between;
-    text-align: center;
+  }
+  .footer-center a{
+    text-decoration: none;
   }
   .quick-links {
     list-style: none;
@@ -134,20 +142,25 @@
     text-decoration: none;
     font-size: 18px;
   }
+  .footer-right-mobile{
+    display: none;
+   }
  
   @media screen and (max-width: 768px) {
     .footer-section {
       padding-left: 30px;
       padding-right: 30px;
       padding-top: 30px;
-      padding-bottom: 30px;
+      padding-bottom: 10px;
       margin-top: 10px;
       margin-bottom: 10px;
       gap: 0px;
       display: grid;
       grid-template-columns: 1fr;
     }
-    
+    .footer-container{
+        display: block;
+      }
     .footer-text-column>h1{
         font-size: 41px;
         margin-bottom: 40px;
@@ -168,6 +181,13 @@
     
     .right-paragraph {
       text-align: center;
+    }
+    .footer-right{
+        display: none;
+    }
+    .footer-right-mobile{
+        display: flex;
+        margin-bottom: 50px;
     }
   }
   

@@ -66,12 +66,19 @@ const Footer = () => {
         </div> */}
       </div>
       <div className="footer-bottom">
+        <div className="footer-right-mobile">
+            <div className="footerbox"><img className='facebook' src={facebook} alt="" /></div>
+            <div className="footerbox"><img src={linkedin} alt="" /></div>
+            <div className="footerbox"> <img src={instagram} alt="" /></div>
+            <div className="footerbox"><img src={twitter} alt="" /></div>
+            <div className="footerbox"><img src={whatsapp} alt="" /></div>            
+        </div>
         <div className="footer-left">
         <p className="left-paragraph">(c) Copyright PayPro Private Limited © 2021. All right reserved.</p>
         </div>
         <div className="footer-center">
-            <a href="">Terms of Service |</a>
-            <a href=""> Privacy Policy |</a>
+            <a href="">Terms of Service | </a>
+            <a href="">Privacy Policy |</a>
             <img src={usaidlogo} alt="" />
         </div>
         <div className="footer-right">
