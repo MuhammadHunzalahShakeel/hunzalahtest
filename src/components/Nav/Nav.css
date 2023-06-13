@@ -14,11 +14,16 @@ navbar {
 	width: 80%;
 }
 #nav-contact {
-	background-color: #05555A;;
+	background-color: #05555A;
 	text-align: center;
 	color: white;
 	padding: 12px 20px;
 	border-radius: 50px;
+  }
+#nav-contact:hover {
+	background-color: #64A5AF;
+	color: #05555A;
+	border: 2px solid #05555A;
   }
 nav a {
 	margin: 0 1rem;
