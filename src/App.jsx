@@ -1,5 +1,5 @@
 import React from 'react'
-import { BrowserRouter as Router, Routes, Route} from "react-router-dom"
+import { Routes, Route, BrowserRouter } from "react-router-dom"
 import Nav from "./components/Nav/Nav.jsx";
 import Home from "./components/Home/Home.jsx";
 import Article from "./components/Article/Article.jsx";
@@ -9,16 +9,16 @@ import Footer from "./components/Footer/Footer.jsx";
 
 function App() {
   return (
-    // <Routes>
-    //   {/* <Nav></Nav> */}
-    //   <Home></Home>
-    //   {/* <Article></Article> */}
-    //   {/* <Category></Category>  */}
-    //   {/* <Footer></Footer>  */}
-    // </Routes>
-    <Routes>
-      <Route path='/article' element={<Article/>}/>
-    </Routes>
+    <>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/home" element={<Home/>} />
+        <Route path="/article" element={<Article/>} />
+        <Route path="/category" element={<Category/>} />
+      </Routes>
+    </BrowserRouter>
+    </>
+
   )
 }
 

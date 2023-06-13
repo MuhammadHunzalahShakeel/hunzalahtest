@@ -1,5 +1,6 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+import {Link} from  "react-router-dom"
 import "./Nav.css"
 import Logo from "../../assets/Logo.svg"
 import Article from "../Article/Article.jsx";
@@ -10,6 +11,10 @@ const Navbar = () => {
 	const navigate = useNavigate()
 	function goToArticle(){
 		navigate("/article")
+	}
+	const navigate2 = useNavigate()
+	function goToHome(){
+		navigate2("/home")
 	}
 	const navRef = useRef();
 
@@ -31,8 +36,8 @@ const Navbar = () => {
 					onClick={showNavbar}>
 					<FaTimes />
 				</button>
-                    <a onClick={goToArticle} href="#home" id="nav">Home</a>
-                    <a href="#article" id="nav">Articles</a>
+                    <a onClick={goToHome} href="/home" id="nav">Home</a>
+                    <a onClick={goToArticle} href="/article" id="nav">Articles</a>
                     <a href="/#" id="nav">About Us</a>
                     <a href="/#" id="nav-contact">Contact Us</a>
 			</nav>
