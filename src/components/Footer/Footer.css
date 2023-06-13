@@ -166,13 +166,17 @@
         margin-bottom: 40px;
         margin-top: 0px;
     }
-    .footer-text-column>p{
-        font-size: 22px;
+    .footer-left>p{
+        font-size: 12px;
         line-height: 1.5;
         overflow: hidden;
         display: -webkit-box;
         -webkit-line-clamp: 2;
         -webkit-box-orient: vertical;
+    }
+    .footer-center>a{
+        font-size: 12px;
+        line-height: 1.5;
     }
     .footer-bottom {
       /* margin-top: 30px; */
