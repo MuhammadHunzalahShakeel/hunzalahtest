@@ -166,22 +166,21 @@
         margin-bottom: 40px;
         margin-top: 0px;
     }
-    .footer-left{
+    /* .footer-left{
         display: flex;
        text-align: left;
        justify-content: left;
        align-items: start;
-    }
+    } */
     .footer-left>p{
         font-size: 12px;
         line-height: 1.5;
     }
-    .footer-center{
+    /* .footer-center{
         display: flex;
         text-align: left;
         justify-content: left;
-        align-items: start;
-    }
+    } */
     .footer-center>a{
         font-size: 12px;
         line-height: 1.5;
