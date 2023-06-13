@@ -2,10 +2,12 @@ import React from 'react'
 import './Home.css';
 import Category from "../Category/Category.jsx";
 import Footer from "../Footer/Footer.jsx";
+import Nav from "../Nav/Nav.jsx";
 
 const Home = () => {
   return (
     <section id='home'>
+    <Nav></Nav>
     <div className="home">
     <div className="home-section">
       <h1>PayPro Knowledge Portal</h1>

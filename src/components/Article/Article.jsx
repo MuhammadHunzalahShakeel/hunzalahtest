@@ -6,6 +6,7 @@ import Footer from "../Footer/Footer.jsx";
 const Article = () => {
   return (
     <section id='article'>
+    <Nav></Nav>
     <div className="article">
     <div className="article-section">
       <h1>Articles</h1>
